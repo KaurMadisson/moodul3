@@ -21,7 +21,7 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Spiciness Level</span>
+                            <span class="label-text">T-shirt</span>
                         </label>
                         <input name="spiciness_level" type="number" min="1" max="5" placeholder="1-5" class="input input-bordered w-full @error('spiciness_level') input-error @enderror" />
                         @error('spiciness_level')

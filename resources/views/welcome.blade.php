@@ -20,7 +20,7 @@
                         <h2 class="card-title">{{ $article->title }}</h2>
                         <p>{{ $article->snippet }}</p>
                         <!-- Display Spiciness Level -->
-                        <div class="stat-desc"><b>Spiciness Level: </b>{{ $article->spiciness_level }}</div>
+                        <div class="stat-desc"><b>T-shirt: </b>{{ $article->spiciness_level }}</div>
                         
                         <div class="stat">
                             <div class="stat-desc">{{ $article->user->name }}</div>

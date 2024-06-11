@@ -21,7 +21,7 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Spiciness Level</span>
+                            <span class="label-text">Amount</span>
                         </label>
                         <input name="spiciness_level" type="number" min="1" max="5" placeholder="1-5" class="input input-bordered w-full @error('spiciness_level') input-error @enderror" />
                         @error('spiciness_level')
@@ -33,7 +33,7 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Vegan Burger</span>
+                            <span class="label-text">T-shirt</span>
                         </label>
                         <input name="is_vegan" type="checkbox" class="checkbox  @error('vegan_burger') checkbox-error @enderror" />
                         @error('vegan_burger')
@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Vegetarian Burger</span>
+                            <span class="label-text">Cup</span>
                         </label>
                         <input name="is_vegetarian" type="checkbox" class="checkbox  @error('vegetarian_burger') checkbox-error @enderror" />
                         @error('vegetarian_burger')
@@ -55,7 +55,7 @@
                     </div>
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Meaty Burger</span>
+                            <span class="label-text">Mouse</span>
                         </label>
                         <input name="meaty_burger" type="checkbox" class="checkbox  @error('meaty_burger') checkbox-error @enderror" />
                         @error('meaty_burger')
@@ -67,7 +67,7 @@
 
                     <div class="form-control w-full">
                         <label class="label">
-                            <span class="label-text">Content</span>
+                            <span class="label-text">Feedback</span>
                         </label>
                         <textarea name="body" class="textarea textarea-bordered @error('body') textarea-error @enderror" placeholder="Content here"></textarea>
                         @error('body')
